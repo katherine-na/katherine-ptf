@@ -1,7 +1,6 @@
 import React from "react";
 import './Biography.css'
 import MyCV from "../../assets/CV/Front-End-Dev_Katherine_Negrete.pdf";
-import Myphoto from "../../assets/biography/kathy.jpeg"
 
 const Biography = () => {
 
@@ -16,7 +15,7 @@ const Biography = () => {
         <p>
           Hi there! I'm a UI Front End Developer, I enjoy building websites.
         </p>
-        <a href={MyCV} class="dowloand-cv" download="Front-End-Dev_Katherine_Negrete.pdf">
+        <a href={MyCV} className="dowloand-cv" download="Front-End-Dev_Katherine_Negrete.pdf">
           Dowloand CV
         </a>
       </div>

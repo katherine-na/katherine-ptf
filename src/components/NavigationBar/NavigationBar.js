@@ -13,18 +13,21 @@ const NavigationBar = () => {
           <a
             href="https://www.linkedin.com/in/katherine-negrete-07b65b240/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               className="footer-image"
               src={socialMediaImages(`./linkeding.jpeg`)}
+              alt="logo-linkeding"
             />
           </a>
         </ul>
         <ul className="navbar-social">
-          <a href="https://github.com/katherine-na" target="_blank">
+          <a href="https://github.com/katherine-na" target="_blank" rel="noopener noreferrer">
             <img
               className="footer-image"
               src={socialMediaImages(`./github.png`)}
+              alt="logo-github"
             />
           </a>
         </ul>

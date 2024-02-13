@@ -17,7 +17,7 @@ const skillsImage = [
 const SkillsSection = () => {
     return (
         <section id="skills">
-        <div class="skills-subtitle">
+        <div className="skills-subtitle">
           <h2>My skills</h2>
           <p>
             I took online courses in various education platforms where I studied
